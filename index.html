@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin-Fashion</title>
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/bca53341f0.js" crossorigin="anonymous"></script>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-roboto {
+            font-family: "Roboto", sans-serif;
+        }
+
+        .font-bebas {
+            font-family: "Bebas Neue", sans-serif;
+        }
+
+        .m-width {
+            max-width: 1200px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="bg-[#FFFBF0] border-2 border-red-500">
+        <nav class="m-width mx-auto flex justify-between items-center px-5  my-7">
+            <div class="w-72 h-10">
+                <img src="icons/logo.png" alt="">
+            </div>
+            <div class="hidden md:hidden lg:inline">
+                <ul class="flex justify-center items-center gap-12 text-base font-medium font-roboto">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="inline md:inline lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <div class="m-width mx-auto px-5 pb-16">
+            <div class="md:flex items-center justify-between">
+                <div class="space-y-3">
+                    <h1 class="text-7xl uppercase font-bebas"><span class="text-[#FABE4C]">Be the Penguins</span> <br>
+                        <span>of
+                            Winter</span>
+                    </h1>
+                    <p class="font-roboto font-base max-w-80">Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry.</p>
+                    <button
+                        class="px-7 py-5 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl text-white font-medium text-base"><i
+                            class="fa-solid fa-cart-shopping"></i> <span class="ml-3">Buy Now</span></button>
+                </div>
+                <div>
+                    <img src="images/model.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
